@@ -195,7 +195,21 @@
         <Attribute dwd:design-time-name="6743cc13-592f-4287-ab4f-600e4417c0a7">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="008e44b0-7c33-4237-b2af-d716e13e3d3e">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a4b7e8b-1f05-417c-93c5-5b9053c0ba54">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9483c033-ff1a-4af5-a64f-50217bc7ab0e">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="65e90d26-79bd-4fd3-8d9e-f75164d11dad">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="9db16e9b-a558-42a4-a4e1-a2f44db7a492">
       <ID>Employee</ID>
