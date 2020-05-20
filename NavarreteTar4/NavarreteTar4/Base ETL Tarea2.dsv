@@ -288,6 +288,20 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="GenderName" msdata:ReadOnly="true" msprop:design-time-name="4662ee8c-9fca-449c-bfde-0c4c5f6e44f9" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="GenderName" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Gender = 'F'&#xD;&#xA;&#x9;THEN 'Female'&#xD;&#xA;&#x9;ELSE 'Male'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SalariedName" msdata:ReadOnly="true" msprop:design-time-name="92ad2e2e-a61b-4151-9f3d-545a2c049611" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="SalariedName" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Salaried = '1'&#xD;&#xA;&#x9;THEN 'Salaried'&#xD;&#xA;&#x9;ELSE 'Hourly'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -416,6 +430,13 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TerritoryName" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN TerritoryID = 1&#xD;&#xA;&#x9;THEN 'North West'&#xD;&#xA;&#x9;WHEN TerritoryID = 2&#xD;&#xA;&#x9;THEN 'North East'&#xD;&#xA;&#x9;WHEN TerritoryID = 3&#xD;&#xA;&#x9;THEN 'Central'&#xD;&#xA;&#x9;WHEN TerritoryID = 4&#xD;&#xA;&#x9;THEN 'South West'&#xD;&#xA;&#x9;WHEN TerritoryID = 5&#xD;&#xA;&#x9;THEN 'South East'&#xD;&#xA;&#x9;WHEN TerritoryID = 6&#xD;&#xA;&#x9;THEN 'Canada'&#xD;&#xA;&#x9;WHEN TerritoryID = 7&#xD;&#xA;&#x9;THEN 'France'&#xD;&#xA;&#x9;WHEN TerritoryID = 8&#xD;&#xA;&#x9;THEN 'Germany'&#xD;&#xA;&#x9;WHEN TerritoryID = 9&#xD;&#xA;&#x9;THEN 'Australia'&#xD;&#xA;&#x9;ELSE 'United Kingdom'&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="88a83b9f-2e1a-4d0a-ba63-1fd45fdedac0" msprop:DbColumnName="TerritoryName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="14" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
