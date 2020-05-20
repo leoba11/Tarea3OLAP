@@ -6,6 +6,40 @@
     <Name>NavarreteTar4.database</Name>
     <FullPath>NavarreteTar4.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Base ETL Tarea2.cube</Name>
+      <FullPath>Base ETL Tarea2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Base ETL Tarea2.partitions</Name>
+          <FullPath>Base ETL Tarea2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Fact Sales Perfomance.dim</Name>
+      <FullPath>Fact Sales Perfomance.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Territory.dim</Name>
+      <FullPath>Territory.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Almacen Datos Tarea2.ds</Name>
