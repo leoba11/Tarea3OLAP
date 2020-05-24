@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oG257EZyVHUkI2mKvRbJydR+U+s=20/05/2020 16:45:5020/05/2020 15:27:37</TimeStamp>
+        <TimeStamp>CzdcfeC2b9vZiGRsf8C7hepsXak=21/05/2020 23:10:5420/05/2020 15:27:37</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -61,14 +61,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>EWrl4GlLuDinKYxz3iJy7knLFqA=20/05/2020 16:35:1020/05/2020 15:27:37</TimeStamp>
+        <TimeStamp>VzmL9JH3ude5PY0AYesOVIdYOVI=23/05/2020 20:36:5820/05/2020 15:27:37</TimeStamp>
         <ID>
           <String>Territory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>zR8nhEY6qqSXWhwypnaBgACmVQY=20/05/2020 16:39:1920/05/2020 15:27:37+y+R/A9ngVcjPcXhJwZ29fhoVuw=20/05/2020 16:08:5620/05/2020 15:27:37</TimeStamp>
+        <TimeStamp>n2w4w6vtdzxMrcdyNaNugsHf5sc=23/05/2020 20:58:3020/05/2020 15:27:37+y+R/A9ngVcjPcXhJwZ29fhoVuw=20/05/2020 16:08:5620/05/2020 15:27:37</TimeStamp>
         <ID>
           <String>Base ETL Tarea2</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-05-20T22:49:15.326667Z</LastDeployed>
+  <LastDeployed>2020-05-24T02:58:33.926667Z</LastDeployed>
 </DeploymentSnapshot>
