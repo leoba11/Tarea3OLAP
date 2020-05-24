@@ -13,9 +13,6 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Fact Sales Perfomance</ID>
-      </Dimension>
-      <Dimension>
         <ID>Date</ID>
       </Dimension>
       <Dimension>
@@ -33,42 +30,10 @@
         <ID>Base ETL Tarea2</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Date</ID>
-            <Partitions>
-              <Partition>
-                <ID>Date</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Employee</ID>
-            <Partitions>
-              <Partition>
-                <ID>Employee</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Fact Sales Perfomance</ID>
             <Partitions>
               <Partition>
                 <ID>Fact Sales Perfomance</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Product</ID>
-            <Partitions>
-              <Partition>
-                <ID>Product</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Territory</ID>
-            <Partitions>
-              <Partition>
-                <ID>Territory</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

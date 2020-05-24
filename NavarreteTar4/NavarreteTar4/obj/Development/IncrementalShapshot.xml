@@ -33,13 +33,6 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>j5M6Jxfxw3YZkO8i/La60RkCijY=20/05/2020 15:27:3720/05/2020 15:27:37</TimeStamp>
-        <ID>
-          <String>Fact Sales Perfomance</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>CzdcfeC2b9vZiGRsf8C7hepsXak=21/05/2020 23:10:5420/05/2020 15:27:37</TimeStamp>
         <ID>
           <String>Date</String>
@@ -68,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>n2w4w6vtdzxMrcdyNaNugsHf5sc=23/05/2020 20:58:3020/05/2020 15:27:37+y+R/A9ngVcjPcXhJwZ29fhoVuw=20/05/2020 16:08:5620/05/2020 15:27:37</TimeStamp>
+        <TimeStamp>g/PsEf8ukA6BvW4FQxoSWZkLgK8=24/05/2020 1:21:5420/05/2020 15:27:37uWVYiPEbaRkXTLcU+yl5rEMyN+E=23/05/2020 22:52:5020/05/2020 15:27:37</TimeStamp>
         <ID>
           <String>Base ETL Tarea2</String>
         </ID>
@@ -85,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-05-24T02:58:33.926667Z</LastDeployed>
+  <LastDeployed>2020-05-24T07:21:58.07Z</LastDeployed>
 </DeploymentSnapshot>
